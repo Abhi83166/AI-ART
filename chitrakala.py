@@ -110,7 +110,7 @@ class App(customtkinter.CTk):
             messagebox.showerror("Prompt error", "Sorry we Cannot imagine without your prompt")
         else:
 
-            mykey = 'sk-PI1ZoMBPo9VKtIibsTQC0O82EplLfZEjeX0NQbTxzN1gQnEK'
+            mykey = 'ENTER YOUR KEY'
 
             stability_api = client.StabilityInference(
                 key=mykey,
